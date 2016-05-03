@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -13,15 +15,83 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snowboard-1151063_1920.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Xq4-yL-6X5">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Challenge the limits" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="69J-dw-Rc4">
+                                <rect key="frame" x="5" y="398" width="150" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="6rB-kB-ROd"/>
+                                    <constraint firstAttribute="height" constant="21" id="ouv-YB-Y4V"/>
+                                    <constraint firstAttribute="width" constant="148" id="xOk-6G-FH1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="xOk-6G-FH1"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FALLS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CU5-uc-6t7">
+                                <rect key="frame" x="1" y="355" width="142" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="61j-ai-BrP"/>
+                                    <constraint firstAttribute="height" constant="48" id="bBW-k8-Nzx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="37"/>
+                                <color key="textColor" red="0.78738981485366821" green="0.24644413590431213" blue="0.27221894264221191" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="61j-ai-BrP"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SNOW" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JBY-Re-Vm3">
+                                <rect key="frame" x="2" y="318" width="138" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="ilJ-tP-D4x"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="37"/>
+                                <color key="textColor" red="0.17077735066413879" green="0.30895513296127319" blue="0.37797331809997559" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JBY-Re-Vm3" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="2" id="G1e-Pk-DOW"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Xq4-yL-6X5" secondAttribute="bottom" id="GbE-x6-IyR"/>
+                            <constraint firstItem="69J-dw-Rc4" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-11" id="Hwv-hZ-zUU"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="CU5-uc-6t7" secondAttribute="bottom" constant="165" id="UpH-yI-VvP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="CU5-uc-6t7" secondAttribute="trailing" constant="161" id="XSZ-Fg-n1m"/>
+                            <constraint firstItem="CU5-uc-6t7" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-15" id="ass-Lb-NMP"/>
+                            <constraint firstItem="Xq4-yL-6X5" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="di9-hP-mEo"/>
+                            <constraint firstItem="Xq4-yL-6X5" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="keX-HO-FDH"/>
+                            <constraint firstItem="69J-dw-Rc4" firstAttribute="leading" secondItem="CU5-uc-6t7" secondAttribute="leading" id="okm-6n-g7E"/>
+                            <constraint firstAttribute="trailing" secondItem="JBY-Re-Vm3" secondAttribute="trailing" constant="180" id="ow2-GP-IXJ"/>
+                            <constraint firstItem="69J-dw-Rc4" firstAttribute="top" secondItem="JBY-Re-Vm3" secondAttribute="bottom" constant="29" id="qJP-Kc-OPD"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="69J-dw-Rc4" secondAttribute="bottom" constant="149" id="sPo-Ze-woM"/>
+                            <constraint firstAttribute="trailing" secondItem="Xq4-yL-6X5" secondAttribute="trailing" id="sQ8-Fu-3r9"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="okm-6n-g7E"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="375" y="408"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="snowboard-1151063_1920.jpg" width="1920" height="1264"/>
+    </resources>
 </document>

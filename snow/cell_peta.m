@@ -7,13 +7,19 @@
 //
 
 #import "cell_peta.h"
+#define IS_OS_8_OR_LATER ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
 
 @implementation cell_peta
 
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code
+     
+    
+   
 }
+
+
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];

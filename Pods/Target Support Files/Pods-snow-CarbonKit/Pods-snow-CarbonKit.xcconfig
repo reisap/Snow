@@ -1,0 +1,1 @@
+PODS_SNOW_CARBONKIT_OTHER_LDFLAGS = -framework "UIKit"

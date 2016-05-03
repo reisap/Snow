@@ -1,0 +1,1 @@
+PODS_SNOW_MAGICALRECORD_OTHER_LDFLAGS = -framework "CoreData"

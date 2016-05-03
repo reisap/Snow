@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15D21" minimumToolsVersion="Xcode 7.0">
-    <elements/>
+    <entity name="AllStat" representedClassName="AllStat" syncable="YES">
+        <attribute name="elevation" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="lat" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="lng" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timezone" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="triplet" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wind" optional="YES" attributeType="Boolean" syncable="YES"/>
+    </entity>
+    <entity name="Location" representedClassName="Location" syncable="YES">
+        <attribute name="lat" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="lng" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="triplet" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="allStat" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AllStat" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AllStat" positionX="-63" positionY="-18" width="128" height="148"/>
+        <element name="Location" positionX="-630" positionY="12" width="128" height="103"/>
+    </elements>
 </model>
