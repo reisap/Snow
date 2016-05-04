@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D209F329CC071A7006E62081FCABC830AD157008",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D209F329CC071A7006E62081FCABC830AD157008" : 0,
+    "C730DCB5D327E893BA30ECD90045AB0C00D3B74F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "19CEFBF1-B637-4472-BEAC-DA528C237258",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D209F329CC071A7006E62081FCABC830AD157008" : "snow\/",
+    "C730DCB5D327E893BA30ECD90045AB0C00D3B74F" : "PDAMObj\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "snow",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "snow.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/reisap\/PDAM-Tirta-Pakuan-IOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C730DCB5D327E893BA30ECD90045AB0C00D3B74F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/reisap\/Snow.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D209F329CC071A7006E62081FCABC830AD157008"
+    }
+  ]
+}

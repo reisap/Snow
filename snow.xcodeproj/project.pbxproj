@@ -62,6 +62,17 @@
 		A78477C61CD74DB100C595F8 /* MenuShow.m in Sources */ = {isa = PBXBuildFile; fileRef = A78477C51CD74DB100C595F8 /* MenuShow.m */; };
 		A78477C91CD74E4A00C595F8 /* ShowMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A78477C81CD74E4A00C595F8 /* ShowMenu.m */; };
 		A78477CB1CD755CB00C595F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A78477CA1CD755CB00C595F8 /* Main.storyboard */; };
+		A7F6014E1CD9E64D00B1AB15 /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F6014D1CD9E64D00B1AB15 /* Profile.m */; };
+		A7F601511CD9E66600B1AB15 /* Search.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F601501CD9E66600B1AB15 /* Search.m */; };
+		A7F601541CD9E67400B1AB15 /* Record.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F601531CD9E67400B1AB15 /* Record.m */; };
+		A7F601571CD9E6C500B1AB15 /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F601561CD9E6C500B1AB15 /* Video.m */; };
+		A7F601591CD9F77600B1AB15 /* play-button.png in Resources */ = {isa = PBXBuildFile; fileRef = A7F601581CD9F77600B1AB15 /* play-button.png */; };
+		A7F6015C1CD9F7E400B1AB15 /* video-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = A7F6015A1CD9F7E400B1AB15 /* video-camera.png */; };
+		A7F6015D1CD9F7E400B1AB15 /* video-camera2.png in Resources */ = {isa = PBXBuildFile; fileRef = A7F6015B1CD9F7E400B1AB15 /* video-camera2.png */; };
+		A7F601601CD9F8CA00B1AB15 /* tourist.png in Resources */ = {isa = PBXBuildFile; fileRef = A7F6015E1CD9F8CA00B1AB15 /* tourist.png */; };
+		A7F601611CD9F8CA00B1AB15 /* tourist1.png in Resources */ = {isa = PBXBuildFile; fileRef = A7F6015F1CD9F8CA00B1AB15 /* tourist1.png */; };
+		A7F601641CD9FA1D00B1AB15 /* loupe.png in Resources */ = {isa = PBXBuildFile; fileRef = A7F601621CD9FA1D00B1AB15 /* loupe.png */; };
+		A7F601651CD9FA1D00B1AB15 /* loupe1.png in Resources */ = {isa = PBXBuildFile; fileRef = A7F601631CD9FA1D00B1AB15 /* loupe1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -142,6 +153,21 @@
 		A78477C71CD74E4A00C595F8 /* ShowMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowMenu.h; sourceTree = "<group>"; };
 		A78477C81CD74E4A00C595F8 /* ShowMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowMenu.m; sourceTree = "<group>"; };
 		A78477CA1CD755CB00C595F8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A7F6014C1CD9E64D00B1AB15 /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
+		A7F6014D1CD9E64D00B1AB15 /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
+		A7F6014F1CD9E66600B1AB15 /* Search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Search.h; sourceTree = "<group>"; };
+		A7F601501CD9E66600B1AB15 /* Search.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Search.m; sourceTree = "<group>"; };
+		A7F601521CD9E67400B1AB15 /* Record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Record.h; sourceTree = "<group>"; };
+		A7F601531CD9E67400B1AB15 /* Record.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Record.m; sourceTree = "<group>"; };
+		A7F601551CD9E6C500B1AB15 /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		A7F601561CD9E6C500B1AB15 /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
+		A7F601581CD9F77600B1AB15 /* play-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-button.png"; sourceTree = "<group>"; };
+		A7F6015A1CD9F7E400B1AB15 /* video-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video-camera.png"; sourceTree = "<group>"; };
+		A7F6015B1CD9F7E400B1AB15 /* video-camera2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video-camera2.png"; sourceTree = "<group>"; };
+		A7F6015E1CD9F8CA00B1AB15 /* tourist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tourist.png; sourceTree = "<group>"; };
+		A7F6015F1CD9F8CA00B1AB15 /* tourist1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tourist1.png; sourceTree = "<group>"; };
+		A7F601621CD9FA1D00B1AB15 /* loupe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loupe.png; sourceTree = "<group>"; };
+		A7F601631CD9FA1D00B1AB15 /* loupe1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loupe1.png; sourceTree = "<group>"; };
 		A7F95786C46E92553E440447 /* Pods-snow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snow.release.xcconfig"; path = "Pods/Target Support Files/Pods-snow/Pods-snow.release.xcconfig"; sourceTree = "<group>"; };
 		EA00767E5E016BCB45DA36F7 /* Pods-snow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-snow/Pods-snow.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -228,6 +254,14 @@
 				A705E31D1CD880A900E6573F /* cell_stations.m */,
 				A705E31E1CD880A900E6573F /* cell_stations.xib */,
 				A78477CA1CD755CB00C595F8 /* Main.storyboard */,
+				A7F6014C1CD9E64D00B1AB15 /* Profile.h */,
+				A7F6014D1CD9E64D00B1AB15 /* Profile.m */,
+				A7F6014F1CD9E66600B1AB15 /* Search.h */,
+				A7F601501CD9E66600B1AB15 /* Search.m */,
+				A7F601521CD9E67400B1AB15 /* Record.h */,
+				A7F601531CD9E67400B1AB15 /* Record.m */,
+				A7F601551CD9E6C500B1AB15 /* Video.h */,
+				A7F601561CD9E6C500B1AB15 /* Video.m */,
 				A78477C41CD74DB100C595F8 /* MenuShow.h */,
 				A78477C51CD74DB100C595F8 /* MenuShow.m */,
 				A78477C71CD74E4A00C595F8 /* ShowMenu.h */,
@@ -268,8 +302,15 @@
 				A705E31A1CD87EA500E6573F /* locat.png */,
 				A705E3211CD88D2A00E6573F /* avatar.png */,
 				A705E3221CD88D2A00E6573F /* interface.png */,
+				A7F601581CD9F77600B1AB15 /* play-button.png */,
 				A705E3271CD88D8800E6573F /* tool.png */,
 				A705E3231CD88D2A00E6573F /* search.png */,
+				A7F6015A1CD9F7E400B1AB15 /* video-camera.png */,
+				A7F6015B1CD9F7E400B1AB15 /* video-camera2.png */,
+				A7F6015E1CD9F8CA00B1AB15 /* tourist.png */,
+				A7F6015F1CD9F8CA00B1AB15 /* tourist1.png */,
+				A7F601621CD9FA1D00B1AB15 /* loupe.png */,
+				A7F601631CD9FA1D00B1AB15 /* loupe1.png */,
 			);
 			name = imagesData;
 			sourceTree = "<group>";
@@ -425,12 +466,19 @@
 				A705E3251CD88D2A00E6573F /* interface.png in Resources */,
 				A78477651CD7143D00C595F8 /* ski-run-573919_1920.jpg in Resources */,
 				A78477681CD7143D00C595F8 /* snowboarder-690779.jpg in Resources */,
+				A7F6015D1CD9F7E400B1AB15 /* video-camera2.png in Resources */,
+				A7F601611CD9F8CA00B1AB15 /* tourist1.png in Resources */,
+				A7F601641CD9FA1D00B1AB15 /* loupe.png in Resources */,
 				A784776C1CD7165E00C595F8 /* depan.jpg in Resources */,
 				A705E3281CD88D8800E6573F /* tool.png in Resources */,
 				A78477531CD70F6B00C595F8 /* LaunchScreen.storyboard in Resources */,
+				A7F6015C1CD9F7E400B1AB15 /* video-camera.png in Resources */,
 				A705E3261CD88D2A00E6573F /* search.png in Resources */,
+				A7F601591CD9F77600B1AB15 /* play-button.png in Resources */,
 				A78477CB1CD755CB00C595F8 /* Main.storyboard in Resources */,
 				A78477501CD70F6B00C595F8 /* Assets.xcassets in Resources */,
+				A7F601601CD9F8CA00B1AB15 /* tourist.png in Resources */,
+				A7F601651CD9FA1D00B1AB15 /* loupe1.png in Resources */,
 				A78477BF1CD7426100C595F8 /* cell_peta.xib in Resources */,
 				A78477621CD7143D00C595F8 /* breithorn-201354_1280.jpg in Resources */,
 				A705E3201CD880A900E6573F /* cell_stations.xib in Resources */,
@@ -486,11 +534,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7F601571CD9E6C500B1AB15 /* Video.m in Sources */,
 				A78477921CD7181900C595F8 /* ATAppUpdater.m in Sources */,
+				A7F6014E1CD9E64D00B1AB15 /* Profile.m in Sources */,
 				A78477951CD7181900C595F8 /* iRate.m in Sources */,
 				A71DA4B41CD8558800E75637 /* stations.xcdatamodeld in Sources */,
 				A705E31F1CD880A900E6573F /* cell_stations.m in Sources */,
 				A705E3181CD8745800E6573F /* AllStat+CoreDataProperties.m in Sources */,
+				A7F601541CD9E67400B1AB15 /* Record.m in Sources */,
+				A7F601511CD9E66600B1AB15 /* Search.m in Sources */,
 				A78477BE1CD7426100C595F8 /* cell_peta.m in Sources */,
 				A78477961CD7181900C595F8 /* JASidePanelController.m in Sources */,
 				A784779C1CD7181900C595F8 /* KLCPopup.m in Sources */,

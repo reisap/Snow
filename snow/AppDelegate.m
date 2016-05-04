@@ -8,6 +8,10 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "Search.h"
+#import "Record.h"
+#import "Video.h"
+#import "Profile.h"
 
 @interface AppDelegate ()
 
@@ -39,15 +43,16 @@
     //vc1.tabBarItem.badgeValue = @"99+";
    // vc1.title = @"Home";
     UIImageView* imgView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 10,30.0, 30.0)];
-    imgView.image = [UIImage imageNamed:@"people.png"];
+    imgView.image = [UIImage imageNamed:@"circle-menu.png"];
     [imgView setContentMode:UIViewContentModeScaleAspectFit];
    
     //[vc1.tabBarItem setImage:[imgView.image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
     
-    vc1.tabBarItem.image = [self imageWithImage:imgView.image scaledToSize:CGSizeMake(30, 30)];
+    vc1.tabBarItem.image = [self imageWithImage:imgView.image scaledToSize:CGSizeMake(25, 25)];
     //vc1.tabBarItem.selectedImage = imgView.image;
     
-    UIViewController *vc2 = [[UIViewController alloc] init];
+    
+    Search * vc2 = [storyboard instantiateViewControllerWithIdentifier:@"Search"];
     vc2.view.backgroundColor = [UIColor whiteColor];
     UIImageView* imgView2x = [[UIImageView alloc] initWithFrame:CGRectMake(0, 10,30.0, 30.0)];
     imgView2x.image = [UIImage imageNamed:@"tool.png"];
@@ -61,25 +66,50 @@
     //vc2.tabBarItem.image = [UIImage imageNamed:@"tabbar_profile"];
     //vc2.tabBarItem.selectedImage = [UIImage imageNamed:@"tabbar_profile_selected"];
     
-    UIViewController *vc3 = [[UIViewController alloc] init];
+    Record *vc3 = [storyboard instantiateViewControllerWithIdentifier:@"Record"];
     vc3.view.backgroundColor = [UIColor blackColor];
-    vc3.tabBarItem.badgeValue = @"99+";
-    vc3.title = @"Video";
-    vc3.tabBarItem.image = [UIImage imageNamed:@"tabbar_profile"];
-    vc3.tabBarItem.selectedImage = [UIImage imageNamed:@"tabbar_profile_selected"];
+//    vc3.tabBarItem.badgeValue = @"99+";
+//    vc3.title = @"Video";
+//    vc3.tabBarItem.image = [UIImage imageNamed:@"tabbar_profile"];
+//    vc3.tabBarItem.selectedImage = [UIImage imageNamed:@"tabbar_profile_selected"];
+
+    UIImageView* imgView3x = [[UIImageView alloc] initWithFrame:CGRectMake(0, 10,30.0, 30.0)];
+    imgView3x.image = [UIImage imageNamed:@"video-camera.png"];
+    [imgView3x setContentMode:UIViewContentModeScaleAspectFit];
     
-    UIViewController *vc4 = [[UIViewController alloc] init];
+    //[vc1.tabBarItem setImage:[imgView.image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
+    
+    vc3.tabBarItem.image = [self imageWithImage:imgView3x.image scaledToSize:CGSizeMake(30, 30)];
+    
+    Video *vc4 = [storyboard instantiateViewControllerWithIdentifier:@"Video"];
     vc4.view.backgroundColor = [UIColor orangeColor];
-    vc4.tabBarItem.badgeValue = @"99+";
-    vc4.title = @"Profile";
-    vc4.tabBarItem.image = [UIImage imageNamed:@"tabbar_profile"];
-    vc4.tabBarItem.selectedImage = [UIImage imageNamed:@"tabbar_profile_selected"];
+    //vc4.tabBarItem.badgeValue = @"99+";
+    //vc4.title = @"Profile";
+    //vc4.tabBarItem.image = [UIImage imageNamed:@"tabbar_profile"];
+    //vc4.tabBarItem.selectedImage = [UIImage imageNamed:@"tabbar_profile_selected"];
+    UIImageView* imgView4x = [[UIImageView alloc] initWithFrame:CGRectMake(0, 10,30.0, 30.0)];
+    imgView4x.image = [UIImage imageNamed:@"play-button.png"];
+    [imgView4x setContentMode:UIViewContentModeScaleAspectFit];
+     vc4.tabBarItem.image = [self imageWithImage:imgView4x.image scaledToSize:CGSizeMake(30, 30)];
+    
+    
+    Profile *vc5 = [storyboard instantiateViewControllerWithIdentifier:@"Profile"];
+    vc5.view.backgroundColor = [UIColor orangeColor];
+//    vc5.tabBarItem.badgeValue = @"99+";
+//    vc5.title = @"Profile";
+//    vc5.tabBarItem.image = [UIImage imageNamed:@"tabbar_profile"];
+//    vc5.tabBarItem.selectedImage = [UIImage imageNamed:@"tabbar_profile_selected"];
+    UIImageView* imgView5x = [[UIImageView alloc] initWithFrame:CGRectMake(0, 10,30.0, 30.0)];
+    imgView5x.image = [UIImage imageNamed:@"tourist.png"];
+    [imgView5x setContentMode:UIViewContentModeScaleAspectFit];
+    vc5.tabBarItem.image = [self imageWithImage:imgView5x.image scaledToSize:CGSizeMake(30, 30)];
     
     
     UINavigationController *navC1 = [[UINavigationController alloc] initWithRootViewController:vc1];
     UINavigationController *navC2 = [[UINavigationController alloc] initWithRootViewController:vc2];
     UINavigationController *navC3 = [[UINavigationController alloc] initWithRootViewController:vc3];
     UINavigationController *navC4 = [[UINavigationController alloc] initWithRootViewController:vc4];
+    UINavigationController *navC5 = [[UINavigationController alloc] initWithRootViewController:vc5];
     
     
     navC1.navigationBar.barTintColor = [UIColor colorWithRed:133/255.0 green:61/255.0 blue:174/255.0 alpha:1.0];
@@ -89,6 +119,7 @@
     [imgView2 setContentMode:UIViewContentModeScaleAspectFit];
     
     navC1.navigationItem.titleView = imgView;
+    
     
     navC2.navigationBar.barTintColor = [UIColor colorWithRed:133/255.0 green:61/255.0 blue:174/255.0 alpha:1.0];
     navC2.navigationBar.translucent = NO;
@@ -106,13 +137,22 @@
     
     
     LCTabBarController *tabBarC = [[LCTabBarController alloc] init];
-    tabBarC.itemTitleFont          = [UIFont boldSystemFontOfSize:11.0f];
+    tabBarC.view.backgroundColor = [UIColor colorWithRed:133/255.0 green:61/255.0 blue:174/255.0 alpha:1.0];
+    [[UITabBar appearance] setTintColor:[UIColor colorWithRed:133/255.0 green:61/255.0 blue:174/255.0 alpha:1.0]];
+    [[UITabBar appearance] setBarTintColor:[UIColor colorWithRed:133/255.0 green:61/255.0 blue:174/255.0 alpha:1.0]];
+    int offset = 7;
+    UIEdgeInsets imageInset = UIEdgeInsetsMake(offset, 0, -offset, 0);
+    tabBarC.tabBarItem.imageInsets = imageInset;
+  
+    //tabBarC.itemTitleFont          = [UIFont boldSystemFontOfSize:11.0f];
     //tabBarC.itemTitleColor         = [UIColor greenColor];
     //tabBarC.selectedItemTitleColor = [UIColor redColor];
-    tabBarC.itemImageRatio         = 0.5f;
-    tabBarC.badgeTitleFont         = [UIFont boldSystemFontOfSize:12.0f];
+    //tabBarC.itemImageRatio         = 0.5f;
+    //tabBarC.badgeTitleFont         = [UIFont boldSystemFontOfSize:12.0f];
+   
     
-    tabBarC.viewControllers = @[navC1, navC2, navC3, navC4];
+    
+    tabBarC.viewControllers = @[navC1, navC2, navC3, navC4,navC5];
     
     self.window.rootViewController = tabBarC;
     return YES;
